@@ -1,0 +1,17 @@
+.tooltip-font {
+  font-family: 'Poppins', 'Arial', 'sans-serif';
+}
+
+.my-custom-class .tooltip-inner {
+  background-color: darkgreen;
+  font-size: 125%;
+}
+
+.my-custom-class .arrow::before {
+  border-top-color: darkgreen;
+}
+
+.foo .tooltip-inner {
+  color: red;
+  @extend .tooltip-font;
+}
